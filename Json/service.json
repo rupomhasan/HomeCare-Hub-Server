@@ -1,10 +1,11 @@
 [
   {
-    "Service_Image": "path/to/service/image_1",
+    "Service_Image": "https://serve-nextjs.vercel.app/assets/images/services/service-12.jpg",
     "Service_Name": "eco-friendly_cleaning",
     "Service_Description": "Eco-friendly cleaning services for a healthier environment.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -19,11 +20,12 @@
     "Total_Purchase": 120
   },
   {
-    "Service_Image": "path/to/service/image_2",
+    "Service_Image": "https://serve-nextjs.vercel.app/assets/images/services/service-2.jpg",
     "Service_Name": "move-in_move-out_cleaning",
     "Service_Description": "Thorough cleaning for moving in or out of a property.",
     "Service_Provider": {
       "Email": "mahid707290@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-7.png",
       "Image": "path/to/provider/image_2",
       "Name": "Mahid"
     },
@@ -38,11 +40,12 @@
     "Total_Purchase": 80
   },
   {
-    "Service_Image": "path/to/service/image_3",
+    "Service_Image": "https://serve-nextjs.vercel.app/assets/images/blog/blog-1.jpg",
     "Service_Name": "office_cleaning",
     "Service_Description": "Professional cleaning services for office spaces.",
     "Service_Provider": {
       "Email": "rifathasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_3",
       "Name": "Rifat Hasan"
     },
@@ -57,11 +60,12 @@
     "Total_Purchase": 60
   },
   {
-    "Service_Image": "path/to/service/image_4",
+    "Service_Image": "https://serve-nextjs.vercel.app/assets/images/blog/blog-5.jpg",
     "Service_Name": "post-construction_cleaning",
     "Service_Description": "Thorough cleaning services after construction or renovation.",
     "Service_Provider": {
       "Email": "mdrupomhasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_4",
       "Name": "Md Rupom Hasan"
     },
@@ -76,11 +80,13 @@
     "Total_Purchase": 150
   },
   {
-    "Service_Image": "path/to/service/image_5",
+    "Service_Image": "https://img.freepik.com/free-photo/handsomen-man-black-sweater-washing-his-car_1157-35956.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "high-pressure_washing",
     "Service_Description": "High-pressure washing for exterior surfaces.",
     "Service_Provider": {
       "Email": "mdrijonakanda369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-10.png",
+
       "Image": "path/to/provider/image_5",
       "Name": "Md Rijon Akanda"
     },
@@ -95,11 +101,12 @@
     "Total_Purchase": 30
   },
   {
-    "Service_Image": "path/to/service/image_6",
+    "Service_Image": "https://img.freepik.com/free-photo/service-maintenance-worker-repairing_23-2149176719.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "leak_detection_and_repair",
     "Service_Description": "Professional leak detection and repair services.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -114,11 +121,12 @@
     "Total_Purchase": 50
   },
   {
-    "Service_Image": "path/to/service/image_7",
+    "Service_Image": "https://img.freepik.com/free-photo/carpenter-holds-glue-attaches-window_1150-23995.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "fixture_installation",
     "Service_Description": "Expert installation services for fixtures.",
     "Service_Provider": {
       "Email": "mahid707290@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-7.png",
       "Image": "path/to/provider/image_2",
       "Name": "Mahid"
     },
@@ -133,11 +141,12 @@
     "Total_Purchase": 90
   },
   {
-    "Service_Image": "path/to/service/image_8",
+    "Service_Image": "https://img.freepik.com/free-photo/builder-glues-decorative-brick-wall-repair-renovation-apartments-offices-repair-work_166373-2089.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "drywall_patching",
     "Service_Description": "Professional drywall patching and repair services.",
     "Service_Provider": {
       "Email": "rifathasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_3",
       "Name": "Rifat Hasan"
     },
@@ -152,11 +161,12 @@
     "Total_Purchase": 20
   },
   {
-    "Service_Image": "path/to/service/image_9",
+    "Service_Image": "https://img.freepik.com/free-photo/worker-repairing-water-heater_23-2149334230.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "plumbing",
     "Service_Description": "Expert plumbing services for residential and commercial properties.",
     "Service_Provider": {
       "Email": "mdrupomhasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_4",
       "Name": "Md Rupom Hasan"
     },
@@ -171,11 +181,13 @@
     "Total_Purchase": 70
   },
   {
-    "Service_Image": "path/to/service/image_10",
+    "Service_Image": "https://serve-nextjs.vercel.app/assets/images/blog/blog-2.jpg",
     "Service_Name": "electrical_work",
     "Service_Description": "Expert electrical repair and installation services.",
     "Service_Provider": {
       "Email": "mdrijonakanda369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-10.png",
+
       "Image": "path/to/provider/image_5",
       "Name": "Md Rijon Akanda"
     },
@@ -191,12 +203,13 @@
   },
 
   {
-    "Service_Image": "path/to/service/image_11",
+    "Service_Image": "https://img.freepik.com/free-photo/colorful-flower-garden_1373-543.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "garden_design",
     "Service_Description": "Professional garden design services for residential and commercial properties.",
     "Service_Provider": {
       "Email": "khubaib607342@gmail.com",
-      "Image": "path/to/provider/image_6",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
+      "Image": "path/to/provider/image_10",
       "Name": "Khubaib"
     },
     "Service_Area": {
@@ -210,11 +223,12 @@
     "Total_Purchase": 35
   },
   {
-    "Service_Image": "path/to/service/image_12",
+    "Service_Image": "https://img.freepik.com/free-photo/old-gardener-cuts-bush-with-large-metal-old-pruning-shears_169016-10698.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "tree_trimming",
     "Service_Description": "Professional tree trimming services for maintaining tree health and aesthetics.",
     "Service_Provider": {
       "Email": "alhabib607273@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-12.png",
       "Image": "path/to/provider/image_7",
       "Name": "Al Habib"
     },
@@ -229,11 +243,12 @@
     "Total_Purchase": 45
   },
   {
-    "Service_Image": "path/to/service/image_13",
+    "Service_Image": "https://img.freepik.com/free-photo/man-cutting-grass-with-lawn-mover-back-yard-male-black-apron-guy-repairs_1157-41434.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "lawn_maintenance",
     "Service_Description": "Expert lawn maintenance services for a lush and healthy lawn.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -248,11 +263,12 @@
     "Total_Purchase": 55
   },
   {
-    "Service_Image": "path/to/service/image_14",
+    "Service_Image": "https://img.freepik.com/premium-photo/man-hand-holding-young-tree-prepare-into-soil-as-save-world-concept_7186-267.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "tree_transplantation",
     "Service_Description": "Professional tree transplantation services for relocating trees.",
     "Service_Provider": {
       "Email": "mahid707290@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-7.png",
       "Image": "path/to/provider/image_2",
       "Name": "Mahid"
     },
@@ -267,11 +283,12 @@
     "Total_Purchase": 70
   },
   {
-    "Service_Image": "path/to/service/image_15",
+    "Service_Image": "https://img.freepik.com/premium-photo/low-angle-shot-young-caucasian-man-cutting-tree-trunk-with-chainsaw_181624-54088.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "tree_surgeon",
     "Service_Description": "Professional tree surgeon services for tree health and maintenance.",
     "Service_Provider": {
       "Email": "rifathasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_3",
       "Name": "Rifat Hasan"
     },
@@ -286,11 +303,12 @@
     "Total_Purchase": 40
   },
   {
-    "Service_Image": "path/to/service/image_16",
+    "Service_Image": "https://img.freepik.com/free-photo/service-maintenance-worker-repairing_23-2149176708.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "appliance_maintenance",
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "rifathasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_3",
       "Name": "Rifat Hasan"
     },
@@ -305,11 +323,12 @@
     "Total_Purchase": 25
   },
   {
-    "Service_Image": "path/to/service/image_17",
+    "Service_Image": "https://img.freepik.com/free-photo/man-with-helmet-working-roof-full-shot_23-2149343662.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "roof_maintenance",
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "mdrupomhasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_4",
       "Name": "Md Rupom Hasan"
     },
@@ -324,11 +343,13 @@
     "Total_Purchase": 35
   },
   {
-    "Service_Image": "path/to/service/image_18",
+    "Service_Image": "https://img.freepik.com/free-photo/medium-shot-man-working-with-protection-helmet_23-2149343636.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "gutter_maintenance",
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "mdrijonakanda369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-10.png",
+
       "Image": "path/to/provider/image_5",
       "Name": "Md Rijon Akanda"
     },
@@ -343,11 +364,12 @@
     "Total_Purchase": 40
   },
   {
-    "Service_Image": "path/to/service/image_19",
+    "Service_Image": "https://img.freepik.com/free-photo/young-serious-engineer-work-clothes-yellow-hardhat-thoughtfully-looking-plan-new-apartment-work_574295-1999.jpg",
     "Service_Name": "home_inspections",
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "alhabib607273@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-12.png",
       "Image": "path/to/provider/image_7",
       "Name": "Al Habib"
     },
@@ -362,12 +384,13 @@
     "Total_Purchase": 55
   },
   {
-    "Service_Image": "path/to/service/image_20",
+    "Service_Image": "https://img.freepik.com/free-photo/service-maintenance-worker-repairing_23-2149176714.jpg?uid=R119918187&ga=GA1.2.1612036082.1702475109&",
     "Service_Name": "appliance_maintenance",
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "khubaib607342@gmail.com",
-      "Image": "path/to/provider/image_6",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
+      "Image": "path/to/provider/image_10",
       "Name": "Khubaib"
     },
     "Service_Area": {
@@ -386,6 +409,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "mahid707290@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-7.png",
       "Image": "path/to/provider/image_2",
       "Name": "Mahid"
     },
@@ -405,6 +429,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "rifathasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_3",
       "Name": "Rifat Hasan"
     },
@@ -424,6 +449,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mdrupomhasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_4",
       "Name": "Md Rupom Hasan"
     },
@@ -443,6 +469,8 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "mdrijonakanda369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-10.png",
+
       "Image": "path/to/provider/image_5",
       "Name": "Md Rijon Akanda"
     },
@@ -462,6 +490,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "alhabib607273@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-12.png",
       "Image": "path/to/provider/image_7",
       "Name": "Al Habib"
     },
@@ -481,7 +510,8 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "khubaib607342@gmail.com",
-      "Image": "path/to/provider/image_6",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
+      "Image": "path/to/provider/image_10",
       "Name": "Khubaib"
     },
     "Service_Area": {
@@ -500,6 +530,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mahid707290@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-7.png",
       "Image": "path/to/provider/image_2",
       "Name": "Mahid"
     },
@@ -519,6 +550,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "alhabib607273@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-12.png",
       "Image": "path/to/provider/image_7",
       "Name": "Al Habib"
     },
@@ -538,6 +570,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "mdrupomhasan369@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-8.png",
       "Image": "path/to/provider/image_4",
       "Name": "Md Rupom Hasan"
     },
@@ -557,6 +590,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -576,6 +610,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "korim543@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-2.png",
       "Image": "path/to/provider/image_9",
       "Name": "Korim"
     },
@@ -595,6 +630,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -614,6 +650,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -633,6 +670,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "maruf3555@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-6.png",
       "Image": "path/to/provider/image_12",
       "Name": "Maruf"
     },
@@ -652,6 +690,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -671,6 +710,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "korim543@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-2.png",
       "Image": "path/to/provider/image_9",
       "Name": "Korim"
     },
@@ -690,6 +730,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -709,6 +750,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -728,6 +770,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "maruf3555@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-6.png",
       "Image": "path/to/provider/image_12",
       "Name": "Maruf"
     },
@@ -747,6 +790,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -766,6 +810,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -785,6 +830,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Salma"
     },
@@ -805,6 +851,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "maruf3555@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-6.png",
       "Image": "path/to/provider/image_12",
       "Name": "Maruf"
     },
@@ -824,6 +871,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -843,6 +891,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -862,6 +911,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Salma"
     },
@@ -881,6 +931,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -900,6 +951,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -919,6 +971,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "maruf3555@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-6.png",
       "Image": "path/to/provider/image_12",
       "Name": "Maruf"
     },
@@ -938,6 +991,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -957,6 +1011,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -976,6 +1031,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -995,6 +1051,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -1014,6 +1071,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -1033,6 +1091,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -1052,6 +1111,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -1071,6 +1131,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -1090,6 +1151,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -1109,6 +1171,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -1128,6 +1191,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -1147,6 +1211,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -1166,6 +1231,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "mr.rajjak32@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-1.png",
       "Image": "path/to/provider/image_8",
       "Name": "Mr. Rajjak"
     },
@@ -1185,6 +1251,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "korim543@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-2.png",
       "Image": "path/to/provider/image_9",
       "Name": "Korim"
     },
@@ -1204,6 +1271,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -1223,6 +1291,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },
@@ -1242,6 +1311,7 @@
     "Service_Description": "Comprehensive home inspection services for buyers and sellers.",
     "Service_Provider": {
       "Email": "rupom.hasan607299@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-3.png",
       "Image": "path/to/provider/image_15",
       "Name": "Rupom Hasan"
     },
@@ -1261,6 +1331,7 @@
     "Service_Description": "Professional maintenance services for household appliances.",
     "Service_Provider": {
       "Email": "korim543@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-2.png",
       "Image": "path/to/provider/image_9",
       "Name": "Korim"
     },
@@ -1280,6 +1351,7 @@
     "Service_Description": "Professional roof maintenance and repair services.",
     "Service_Provider": {
       "Email": "salma234@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-4.png",
       "Image": "path/to/provider/image_10",
       "Name": "Salma"
     },
@@ -1299,6 +1371,7 @@
     "Service_Description": "Expert gutter cleaning and maintenance services.",
     "Service_Provider": {
       "Email": "suvro436@gmail.com",
+      "Logo": "https://serve-nextjs.vercel.app/assets/images/shop/new-arrival-5.png",
       "Image": "path/to/provider/image_11",
       "Name": "Suvro"
     },

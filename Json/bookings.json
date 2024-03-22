@@ -1,0 +1,78 @@
+[
+    {
+      "customer": {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "123-456-7890"
+      },
+      "service": {
+        "name": "Massage Therapy",
+        "provider": "Relaxation Spa",
+        "date": "2024-04-10",
+        "time": "10:00 AM",
+        "duration": "1 hour"
+      },
+      "status": "confirmed"
+    },
+    {
+      "customer": {
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "phone": "234-567-8901"
+      },
+      "service": {
+        "name": "Haircut",
+        "provider": "Chic Salon",
+        "date": "2024-04-12",
+        "time": "2:00 PM",
+        "duration": "45 minutes"
+      },
+      "status": "confirmed"
+    },
+    {
+      "customer": {
+        "name": "Emily Wilson",
+        "email": "emily.wilson@example.com",
+        "phone": "345-678-9012"
+      },
+      "service": {
+        "name": "Dental Checkup",
+        "provider": "Bright Smile Clinic",
+        "date": "2024-04-15",
+        "time": "9:30 AM",
+        "duration": "30 minutes"
+      },
+      "status": "confirmed"
+    },
+    {
+      "customer": {
+        "name": "Michael Thompson",
+        "email": "michael.thompson@example.com",
+        "phone": "456-789-0123"
+      },
+      "service": {
+        "name": "Yoga Class",
+        "provider": "Zen Yoga Studio",
+        "date": "2024-04-18",
+        "time": "6:00 PM",
+        "duration": "1 hour"
+      },
+      "status": "confirmed"
+    },
+    {
+      "customer": {
+        "name": "Sophia Brown",
+        "email": "sophia.brown@example.com",
+        "phone": "567-890-1234"
+      },
+      "service": {
+        "name": "Car Maintenance",
+        "provider": "AutoCare Garage",
+        "date": "2024-04-20",
+        "time": "11:00 AM",
+        "duration": "2 hours"
+      },
+      "status": "confirmed"
+    }
+  ]
+  

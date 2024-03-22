@@ -1,0 +1,50 @@
+[
+  {
+    "photoUrl": "https://i.ibb.co/h881d0W/aurthor.jpg",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "rating": 4.8,
+    "reviewDate": "1st Feb 2023",
+    "description": "I recently used their service for home cleaning, and I must say I'm impressed! The team was punctual, thorough, and friendly. My house looks spotless. Definitely recommending them to friends and family."
+  },
+  {
+    "photoUrl": "https://i.ibb.co/VqtXVmb/author5.jpg",
+    "name": "Michael Thompson",
+    "email": "michael.thompson@example.com",
+    "rating": 4.5,
+    "reviewDate": "25th May 2022",
+    "description": "I've been using their services for lawn maintenance for several months now, and I couldn't be happier. They always do an excellent job, and my lawn looks healthier than ever. Thank you for your outstanding service!"
+  },
+  {
+    "photoUrl": "https://i.ibb.co/82vZw24/profile1.jpg",
+    "name": "Emily Wilson",
+    "email": "emily.wilson@example.com",
+    "rating": 5.0,
+    "reviewDate": "10th August 2022",
+    "description": "I hired them for plumbing repair, and they exceeded my expectations! The plumber arrived promptly, diagnosed the issue quickly, and fixed it efficiently. Exceptional service from start to finish."
+  },
+  {
+    "photoUrl": "https://i.ibb.co/rwtn7y6/profile5.jpg",
+    "name": "Daniel Brown",
+    "email": "daniel.brown@example.com",
+    "rating": 4.2,
+    "reviewDate": "16th September 2022",
+    "description": "I called them for an emergency electrical repair, and they responded promptly. The electrician was professional and knowledgeable, and the problem was resolved swiftly. Overall, a great experience!"
+  },
+  {
+    "photoUrl": "https://i.ibb.co/BCFwpNf/profile10.jpg",
+    "name": "Sophia Martinez",
+    "email": "sophia.martinez@example.com",
+    "rating": 4.9,
+    "reviewDate": "5th October 2022",
+    "description": "Used their service for HVAC maintenance, and I'm impressed by their attention to detail. The technician was thorough, explained everything clearly, and left my system in top condition. Highly recommend!"
+  },
+  {
+    "photoUrl": "https://i.ibb.co/TPw9Kvj/profile6.jpg",
+    "name": "William Taylor",
+    "email": "william.taylor@example.com",
+    "rating": 4.6,
+    "reviewDate": "12th November 2022",
+    "description": "I recently used their painting service for my home interior, and I couldn't be happier with the results. The painters were skilled, efficient, and left no mess behind. My home looks brand new!"
+  }
+]

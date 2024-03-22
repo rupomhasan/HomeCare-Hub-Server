@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Ensuring Masks",
+    "description": "Providing high-quality masks for your safety.",
+    "url": "https://serve-nextjs.vercel.app/assets/images/icons/choose-reason-1.png"
+  },
+  {
+    "title": "24/7 Support",
+    "description": "Always available to assist you, day or night.",
+    "url": "https://serve-nextjs.vercel.app/assets/images/icons/choose-reason-2.png"
+  },
+  {
+    "title": "Sanitizing Hands",
+    "description": "Keeping hands clean for a healthier environment.",
+    "url": "https://serve-nextjs.vercel.app/assets/images/icons/choose-reason-3.png"
+  },
+  {
+    "title": "Ensuring Gloves",
+    "description": "Supplying reliable gloves for added protection.",
+    "url": "https://serve-nextjs.vercel.app/assets/images/icons/choose-reason-4.png"
+  },
+  {
+    "title": "Any Services",
+    "description": "Offering a wide range of services to meet your needs.",
+    "url": "https://serve-nextjs.vercel.app/assets/images/icons/choose-reason-5.png"
+  },
+  {
+    "title": "Delivery in 2 Hours",
+    "description": "Fast and efficient delivery within a two-hour time frame.",
+    "url": "https://serve-nextjs.vercel.app/assets/images/icons/choose-reason-6.png"
+  }
+]
