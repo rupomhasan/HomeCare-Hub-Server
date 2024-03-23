@@ -75,6 +75,10 @@ async function run() {
       }
     });
 
+    app.delete("/api/v1/auth/clear-cookie", (req, res) => {
+      res.clearCookie("token").send("Cookie Cleared");
+    });
+
     // all Collection
     const dataBaseName = client.db("ServiceHub");
     const categoryCollection = dataBaseName.collection("categories");
