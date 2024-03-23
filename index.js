@@ -1,11 +1,11 @@
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const express = require("express");
 require("dotenv").config();
+const jwt = require("jsonwebtoken");
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 25000;
 const cors = require("cors");
-const rules = require("nodemon/lib/rules");
-
+const cookieParser = require("cookie-parser");
 //Use  MiddleWare
 app.use(
   cors({
@@ -13,6 +13,7 @@ app.use(
     credentials: true,
   })
 );
+app.use(cookieParser());
 app.use(express.json());
 
 // // URI
@@ -29,10 +30,50 @@ const client = new MongoClient(uri, {
 
 // MongoAll Operation
 
+const verify = (req, res, next) => {
+  try {
+    const token = req.cookies.token;
+    if (!token) {
+      return res.status(401).send({ message: "Unauthorized Access" });
+    }
+    jwt.verify(token, process.env.SECRET_TOKEN, (err, decoded) => {
+      if (err) {
+        console.log(err);
+        return res.status(401).send({ message: "UnAuthorized Access" });
+      }
+      req.email = decoded;
+      next();
+    });
+  } catch (err) {
+    res.status(500).send({ status: 500, message: "Internal Server Error" });
+  }
+};
+
 async function run() {
   try {
     await client.connect();
     await client.db("admin").command({ ping: 1 });
+
+    //Auth connection
+
+    app.post("/api/v1/auth/access-token", async (req, res) => {
+      try {
+        const email = req.body;
+
+        const token = jwt.sign(email, process.env.SECRET_TOKEN, {
+          expiresIn: "1h",
+        });
+
+        res
+          .cookie("token", token, {
+            httpOnly: true,
+          })
+          .send({ success: true });
+      } catch (err) {
+        console.log(err);
+        res.send({ status: 500, message: "Internal server error" });
+      }
+    });
 
     // all Collection
     const dataBaseName = client.db("ServiceHub");
@@ -62,8 +103,15 @@ async function run() {
     // done : http://localhost:5000/api/v1/services?service_name=tree_surgeon
     // done : http://localhost:5000/api/v1/services?page=1&limit=10
     // done : http://localhost:5000/api/v1/services?minPrice=6000&maxPrice=7000
-    app.get("/api/v1/services", async (req, res) => {
+    app.get("/api/v1/services", verify, async (req, res) => {
       try {
+        const decodedEmail = req.email;
+        const user = req.body;
+        console.log(user, decodedEmail);
+        if (decodedEmail.email !== user.email) {
+          return res.status(403).send({ message: "Forbidden Access" });
+        }
+
         const queryObj = {};
         const minPrice = parseFloat(req.query.minPrice);
         const maxPrice = parseFloat(req.query.maxPrice);
@@ -99,8 +147,14 @@ async function run() {
         res.status(500).send({ status: 500, message: "Internal server Error" });
       }
     });
-    app.get("/api/v1/service/:id", async (req, res) => {
+    app.get("/api/v1/service/:id", verify, async (req, res) => {
       try {
+        const decodedEmail = req.email;
+        const user = req.body;
+        console.log(user, decodedEmail);
+        if (decodedEmail.email !== user.email) {
+          return res.status(403).send({ message: "Forbidden Access" });
+        }
         const id = req.params.id;
         const query = { _id: new ObjectId(id) };
         const result = await serviceCollection.findOne(query);
@@ -121,11 +175,15 @@ async function run() {
       }
     });
 
-    app.get("/api/v1/user/bookings", async (req, res) => {
+    app.get("/api/v1/user/bookings", verify, async (req, res) => {
       try {
         const queryObj = {};
+        const decodedEmail = req.email;
         const email = req.query.email;
 
+        if (decodedEmail.email !== email) {
+          return res.status(403).send({ message: "Forbidden Access" });
+        }
         if (email) {
           queryObj["customer.email"] = email;
         }
@@ -143,10 +201,15 @@ async function run() {
         res.send({ status: 500, message: "Internal server error" });
       }
     });
-    app.get("/api/v1/users", async (req, res) => {
+    app.get("/api/v1/users", verify, async (req, res) => {
       try {
         let queryObj = {};
         const email = req.query.email;
+        const decodedEmail = req.email;
+
+        if (decodedEmail.email !== email) {
+          return res.status(403).send({ message: "Forbidden" });
+        }
         if (email) {
           queryObj.email = email;
         }
@@ -177,9 +240,16 @@ async function run() {
         res.status(500).send({ status: 500, message: "Internal server error" });
       }
     });
-    app.post("/api/v1/user/create-booking", async (req, res) => {
+    app.post("/api/v1/user/create-booking", verify, async (req, res) => {
       try {
         const data = req.body;
+        const decodedEmail = req.email;
+        const email = data.customer.email;
+        if (decodedEmail.email !== email) {
+          return res.status(403).send({ message: "Forbidden Access" });
+        }
+        console.log(decodedEmail, email);
+
         const result = await bookingCollection.insertOne(data);
         res.send(result);
       } catch (err) {
@@ -265,9 +335,15 @@ async function run() {
       }
     });
     // all delete operation
-    app.delete("/api/v1/clear-user/:id", async (req, res) => {
+    app.delete("/api/v1/clear-user/:id", verify, async (req, res) => {
       try {
         const id = req.params.id;
+        const email = req.query.email;
+        const decodedEmail = req.email;
+
+        if (email !== decodedEmail.email) {
+          return res.status(403).send({ message: "Forbidden Access" });
+        }
         const query = { _id: new ObjectId(id) };
         const result = await usersCollection.deleteOne(query);
         res.send(result);
@@ -277,10 +353,17 @@ async function run() {
       }
     });
 
-    app.delete("/api/v1/clear-service/:id", async (req, res) => {
+    app.delete("/api/v1/clear-service/:id", verify, async (req, res) => {
       try {
         const id = req.params.id;
+        const decodedEmail = req.email;
         const query = { _id: new ObjectId(id) };
+        const data = await serviceCollection.findOne(query);
+        const email = data?.Service_Provider?.Email;
+        console.log(email, decodedEmail);
+        if (decodedEmail.email !== email) {
+          res.status(403).send({ message: "Forbidden Access" });
+        }
         const result = await serviceCollection.deleteOne(query);
         res.send(result);
       } catch (err) {
@@ -288,9 +371,14 @@ async function run() {
         res.status(500).send({ status: 500, message: "Internal server error" });
       }
     });
-    app.delete("/api/v1/user/clear-booking/:id", async (req, res) => {
+    app.delete("/api/v1/user/clear-booking/:id", verify, async (req, res) => {
       try {
         const id = req.params.id;
+        const email = req.query.email;
+        const decodedEmail = req.email;
+        if (decodedEmail.email !== email) {
+          return res.status(403).send({ message: "Forbidden Access" });
+        }
         const query = { _id: new ObjectId(id) };
         const result = await bookingCollection.deleteOne(query);
         res.send(result);
