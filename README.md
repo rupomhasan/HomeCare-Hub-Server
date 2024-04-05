@@ -18,5 +18,6 @@
 - __User-Friendly__ : Simple and intuitive API structure for easy integration and usage.
 - __Authentication__ : Users can register and login to obtain a JWT token.This token generated upon succesful login.
 - __Token Verification__ : Middleware functions verify the token before accesing protected routes.Sensitive data operatons are protected with the JWT token authentication.
+- __LogOut__ : Implemented logout functionality to clear the authentication cookie for enhanced security.
   
 __Finally__, ServiceHub offers a user-friendly API suite offering price range filtering, pagination support, scalability, data integrity, efficient service management, flexibility, reliability, security measures, and community support.
