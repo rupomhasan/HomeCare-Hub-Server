@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 //Use  MiddleWare
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["http://localhost:5173", "https://homecare-hub-376e1.web.app"],
     credentials: true,
   })
 );
@@ -33,13 +33,14 @@ const client = new MongoClient(uri, {
 const verify = (req, res, next) => {
   try {
     const token = req.cookies.token;
+    console.log("token : ", token);
     if (!token) {
-      return res.status(401).send({ message: "Unauthorized Access" });
+      return res.status(401).send({ message: "Unauthorized Access1" });
     }
     jwt.verify(token, process.env.SECRET_TOKEN, (err, decoded) => {
       if (err) {
         console.log(err);
-        return res.status(401).send({ message: "UnAuthorized Access" });
+        return res.status(401).send({ message: "UnAuthorized Access2" });
       }
       req.email = decoded;
       next();
@@ -51,8 +52,8 @@ const verify = (req, res, next) => {
 
 async function run() {
   try {
-     client.connect();
-     client.db("admin").command({ ping: 1 });
+    client.connect();
+    client.db("admin").command({ ping: 1 });
 
     //Auth connection
 
@@ -67,6 +68,8 @@ async function run() {
         res
           .cookie("token", token, {
             httpOnly: true,
+            secure: true,
+            sameSite: "none",
           })
           .send({ success: true });
       } catch (err) {
@@ -198,6 +201,7 @@ async function run() {
       try {
         const decodedEmail = req.email;
         const email = req.query.email;
+        console.log(email, decodedEmail);
 
         if (decodedEmail.email !== email) {
           return res.status(403).send({ message: "Forbidden Access" });
@@ -289,7 +293,6 @@ async function run() {
         res.send({ status: 500, message: "Internal server error" });
       }
     });
-   
 
     app.get("/api/v1/choseUs", async (req, res) => {
       try {
@@ -377,7 +380,6 @@ async function run() {
       }
     });
 
-
     app.patch("/api/v1/update-service/:id", async (req, res) => {
       try {
         const id = req.params.id;
@@ -413,7 +415,6 @@ async function run() {
       }
     });
     // all delete operation
-   
 
     app.delete("/api/v1/clear-service/:id", verify, async (req, res) => {
       try {
