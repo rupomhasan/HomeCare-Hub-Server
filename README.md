@@ -29,7 +29,7 @@ ServiceHub offers a user-friendly API suite offering price range filtering, pagi
 
 
 Live Demo 
-- Visit HoveCare Hub(https://homecare-hub-376e1.web.app) to explore the live API in action
+- Visit [HoveCare Hub](https://homecare-hub-376e1.web.app) to explore the live API in action
 
 
 ## Contribution 
